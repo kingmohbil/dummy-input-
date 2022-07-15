@@ -1,3 +1,23 @@
-div{
+#container{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
     background-color: red;
 }
+
+body{
+    border: none !important;
+    margin: 0;
+}
+#imageContainer{
+    width: 40%;
+    max-width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
